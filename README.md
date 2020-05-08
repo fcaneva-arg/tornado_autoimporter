@@ -18,8 +18,8 @@ How it works
 ------------
 
 The library works in two phases:
-1. The first phase (`regen_handlers()`) traverses the `handlers` directory and:
-   1. Deletes the `__pycache__` directories
+1. The first phase (`regen_handlers()`) traverses the `handlers` directory and, at each directory:
+   1. Deletes the `__pycache__` subdirectory
    2. Recreates the `__init__.py` file by adding all Python files at current level
    3. Adds to `__init__.py` the subfolders at current level which contains Python files
   
