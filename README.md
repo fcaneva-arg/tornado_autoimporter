@@ -43,3 +43,9 @@ How to try it
 4. Add/modify/move/rename handlers (_to taste_).
 5. Run the `main.py` file, then run your Web browser at `localhost:8888`.
 6. Tinker around with the paths, play with different combinations of URLs.
+
+Licensing & usage
+-----------------
+
+This demo is distributed in the terms of the 
+[Apache License 2.0 or newer](https://www.apache.org/licenses/LICENSE-2.0.txt). 
